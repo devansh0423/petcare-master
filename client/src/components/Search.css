@@ -1,0 +1,33 @@
+.search-products-card {
+  max-width: max-content;
+  display: flex;
+  gap: 20px;
+}
+.btn-blue1 {
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-blue1:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-blue1:focus,
+.btn-blue1.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-blue1:disabled,
+.btn-blue1.disabled {
+  background-color: #007bff;
+  border-color: #007bff;
+  opacity: 0.65;
+}

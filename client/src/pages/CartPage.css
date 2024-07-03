@@ -1,0 +1,10 @@
+.prd-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dng {
+  background-color: #dc3545;
+  max-width: max-content;
+  color: whitesmoke;
+}

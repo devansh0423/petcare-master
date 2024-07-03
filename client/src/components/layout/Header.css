@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: black;
+  max-height: 100px;
+  width: 100%;
+}
+.s-main {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 20px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: large;
+}
+.nav-items:last-child {
+  margin-right: 0;
+}
+
+.nav-items:hover {
+  text-decoration: underline;
+}
+
+.nav-items svg {
+  margin-right: 5px;
+}
+.active {
+  color: orange;
+}
+.cart {
+  font-size: 20px;
+}
+.dropdown-toggle {
+  border-radius: 50%;
+  width: 25px;
+  gap: 5px;
+  margin-left: 15px;
+}
+.cardAndToggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-img {
+  border-radius: 50%;
+}
+.cartkBadge {
+  animation: popup 0.5s infinite alternate;
+  position: fixed;
+  left: 93.2%;
+  top: 4%;
+}
+.cartkBadgelg {
+  animation: popup 0.5s infinite alternate;
+  position: absolute;
+  left: 90%;
+  top: 30%;
+}
+
+@keyframes popup {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}

@@ -1,0 +1,11 @@
+.orders-table-container {
+  padding: 24px;
+}
+
+.orders-table {
+  background-color: #fff;
+}
+
+.ant-avatar {
+  margin-right: 8px;
+}
